@@ -120,7 +120,7 @@
                     $('#excel_table').append('<tr><td>' + i + '</td><td>' + data[i].A + '</td><td>' + data[i].C + '</td><td>' + data[i].D + '</td><td>' + data[i].E + '</td><td>' + data[i].F + '</td><td>' + data[i].G + '</td><td style="color:#' + data[i].K + '">' + data[i].H + '</td><td style="color:#' + data[i].B + '">' + data[i].I + '</td><td>' + data[i].J + '</td></tr>');
                 });
                 $('#table_block').css('display', 'block');
-                $('#excel_table_block').append("<button class='btn btn-info pull-right' style='display: none;' id='send_mail' onclick=send_email('" + path + "')><i class='icon-envelope'></i> Рассылка</button>");
+                $('#excel_table_block').append("<button class='btn btn-info pull-right' style='display: none;' id='send_mail' onclick=send_email('" + path + "'); return false;><i class='icon-envelope'></i> Рассылка</button>");
                 $('#send_mail').css('display', 'block');
 
             }, "json");
@@ -144,7 +144,7 @@
             function(dataset) {
 
                 var countAllObject = getPropertyCount(dataset);
-
+                var n=0;
                 $.each(dataset, function(i, val) {
                     $.post('<?= site_url('general/send_email'); ?>', {'A': dataset[i].A, 'B': dataset[i].B, 'C': dataset[i].C, 'D': dataset[i].D, 'E': dataset[i].E, 'F': dataset[i].F,
                         'G': dataset[i].G, 'H': dataset[i].H, 'I': dataset[i].I, 'J': dataset[i].J,'K':dataset[i].K},
@@ -153,13 +153,17 @@
 
                         $('.progress .bar').css('width', current_perc + '%').attr('aria-valuenow', current_perc);
                         $('.progress .bar').text(current_perc + '%');
-
-                        if (current_perc === 100) {
+                        
+                        //Ошибка возникает тут т.к. значение процента происходит несколько раз, скорее всего из-за дробной части процента
+                        n++;
+                        if (n === countAllObject) {
+                            console.info("My Counter===>"+n);
+                            console.info("All Counter===>"+countAllObject);
                             createXlsFiles();
                         }
-                        
-                    }, 'json');
 
+                    }, 'json');
+                   
                 });
 
             }, "json");
@@ -171,9 +175,6 @@
             $.post('<?= site_url('general/createXlsFiles'); ?>',
                     function(data) {
                         console.info(data);
-                      if(data === 9){
-                          console.info(data);
-                      }
                     }, 'json');
         }
 
