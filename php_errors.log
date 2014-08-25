@@ -1,0 +1,363 @@
+[04-Feb-2013 11:18:19] PHP Fatal error:  Call to a member function logged_in() on a non-object in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 22
+[04-Feb-2013 11:18:19] PHP Stack trace:
+[04-Feb-2013 11:18:19] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[04-Feb-2013 11:18:19] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[04-Feb-2013 11:18:19] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 11:18:19] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 11:18:59] PHP Fatal error:  Call to a member function logged_in() on a non-object in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 22
+[04-Feb-2013 11:18:59] PHP Stack trace:
+[04-Feb-2013 11:18:59] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[04-Feb-2013 11:18:59] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[04-Feb-2013 11:18:59] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 11:18:59] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 11:19:13] PHP Fatal error:  Call to undefined function logged_in() in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 22
+[04-Feb-2013 11:19:13] PHP Stack trace:
+[04-Feb-2013 11:19:13] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[04-Feb-2013 11:19:13] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[04-Feb-2013 11:19:13] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 11:19:13] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 11:19:27] PHP Fatal error:  Call to a member function logged_in() on a non-object in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 22
+[04-Feb-2013 11:19:27] PHP Stack trace:
+[04-Feb-2013 11:19:27] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[04-Feb-2013 11:19:27] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[04-Feb-2013 11:19:27] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 11:19:27] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 11:22:42] PHP Fatal error:  Call to a member function logged_in() on a non-object in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 22
+[04-Feb-2013 11:22:42] PHP Stack trace:
+[04-Feb-2013 11:22:42] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[04-Feb-2013 11:22:42] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[04-Feb-2013 11:22:42] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 11:22:42] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 11:22:49] PHP Fatal error:  Call to a member function logged_in() on a non-object in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 22
+[04-Feb-2013 11:22:49] PHP Stack trace:
+[04-Feb-2013 11:22:49] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[04-Feb-2013 11:22:49] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[04-Feb-2013 11:22:49] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 11:22:49] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 11:22:51] PHP Fatal error:  Call to a member function logged_in() on a non-object in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 22
+[04-Feb-2013 11:22:51] PHP Stack trace:
+[04-Feb-2013 11:22:51] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[04-Feb-2013 11:22:51] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[04-Feb-2013 11:22:51] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 11:22:51] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 11:24:09] PHP Fatal error:  Call to a member function logged_in() on a non-object in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 22
+[04-Feb-2013 11:24:09] PHP Stack trace:
+[04-Feb-2013 11:24:09] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[04-Feb-2013 11:24:09] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[04-Feb-2013 11:24:09] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 11:24:09] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 11:24:12] PHP Fatal error:  Call to a member function logged_in() on a non-object in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 22
+[04-Feb-2013 11:24:12] PHP Stack trace:
+[04-Feb-2013 11:24:12] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[04-Feb-2013 11:24:12] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[04-Feb-2013 11:24:12] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 11:24:12] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 11:24:14] PHP Fatal error:  Call to a member function logged_in() on a non-object in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 22
+[04-Feb-2013 11:24:14] PHP Stack trace:
+[04-Feb-2013 11:24:14] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[04-Feb-2013 11:24:14] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[04-Feb-2013 11:24:14] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 11:24:14] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 11:25:45] PHP Fatal error:  Call to undefined function redirect() in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 34
+[04-Feb-2013 11:25:45] PHP Stack trace:
+[04-Feb-2013 11:25:45] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[04-Feb-2013 11:25:45] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[04-Feb-2013 11:25:45] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 11:25:45] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 13:09:02] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://localhost/test/wsdl/hello.xml' : failed to load external entity "http://localhost/test/wsdl/hello.xml"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 48
+[04-Feb-2013 13:09:35] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://localhost/test/wsdl/hello.xml' : failed to load external entity "http://localhost/test/wsdl/hello.xml"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:09:44] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://localhost/test/wsdl/hello.xml' : failed to load external entity "http://localhost/test/wsdl/hello.xml"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:09:56] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://localhost/test/wsdl/hello.xml' : failed to load external entity "http://localhost/test/wsdl/hello.xml"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:10:36] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:10:47] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:11:06] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:11:38] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:11:44] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:12:17] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:12:19] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:12:23] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:12:29] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:12:46] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:13:00] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:13:01] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:13:45] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:13:48] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:13:54] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:14:23] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:15:09] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:15:13] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:15:15] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:15:27] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:15:30] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:15:34] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:16:22] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:16:25] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:16:33] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:16:37] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:17:34] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:17:38] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:17:41] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:17:43] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:17:56] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:17:58] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:18:00] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:18:44] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:18:46] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:18:48] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:19:27] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:19:31] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:21:18] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:23:07] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:23:10] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:23:59] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:24:10] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:25:06] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:25:08] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:31:06] PHP Fatal error:  Class 'SoapCliet' not found in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:31:06] PHP Stack trace:
+[04-Feb-2013 13:31:06] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[04-Feb-2013 13:31:06] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[04-Feb-2013 13:31:06] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 13:31:06] PHP   4. General->soapclient() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 13:37:46] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:41:04] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://webserice.webfax.sip64.ru:8080/WebServiceSOAPFax/start?wsdl' : failed to load external entity "http://webserice.webfax.sip64.ru:8080/WebServiceSOAPFax/start?wsdl"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:41:15] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://webserice.webfax.sip64.ru/WebServiceSOAPFax/start?wsdl' : failed to load external entity "http://webserice.webfax.sip64.ru/WebServiceSOAPFax/start?wsdl"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:41:19] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://webserice.webfax.sip64.ru/WebServiceSOAPFax/start?wsdl' : failed to load external entity "http://webserice.webfax.sip64.ru/WebServiceSOAPFax/start?wsdl"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:45:03] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:46:16] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:48:16] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:48:33] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:55:04] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:57:59] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:58:56] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:59:12] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:59:42] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 13:59:42] PHP Fatal error:  Call to a member function __getLastResponse() on a non-object in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 57
+[04-Feb-2013 13:59:42] PHP Stack trace:
+[04-Feb-2013 13:59:42] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[04-Feb-2013 13:59:42] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[04-Feb-2013 13:59:42] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 13:59:42] PHP   4. General->soapclient() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 14:05:12] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://192.168.0.43:8080/WebServiceSOAPFax/start' : failed to load external entity "http://192.168.0.43:8080/WebServiceSOAPFax/start"
+ in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 49
+[04-Feb-2013 14:18:20] PHP Fatal error:  SoapClient::SoapClient(): 'uri' option is required in nonWSDL mode in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 50
+[04-Feb-2013 14:44:54] PHP Fatal error:  Class 'General' not found in /home/denic/web/w2f-frontend.lcl/application/controllers/auth.php on line 72
+[04-Feb-2013 14:44:54] PHP Stack trace:
+[04-Feb-2013 14:44:54] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[04-Feb-2013 14:44:54] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[04-Feb-2013 14:44:54] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 14:44:54] PHP   4. Auth->login() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 14:47:28] PHP Fatal error:  Class 'General' not found in /home/denic/web/w2f-frontend.lcl/application/controllers/auth.php on line 72
+[04-Feb-2013 14:47:28] PHP Stack trace:
+[04-Feb-2013 14:47:28] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[04-Feb-2013 14:47:28] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[04-Feb-2013 14:47:28] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 14:47:28] PHP   4. Auth->login() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 14:47:33] PHP Fatal error:  Class 'General' not found in /home/denic/web/w2f-frontend.lcl/application/controllers/auth.php on line 72
+[04-Feb-2013 14:47:33] PHP Stack trace:
+[04-Feb-2013 14:47:33] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[04-Feb-2013 14:47:33] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[04-Feb-2013 14:47:33] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 14:47:33] PHP   4. Auth->login() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 14:48:37] PHP Fatal error:  Class 'General' not found in /home/denic/web/w2f-frontend.lcl/application/controllers/auth.php on line 72
+[04-Feb-2013 14:48:37] PHP Stack trace:
+[04-Feb-2013 14:48:37] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[04-Feb-2013 14:48:37] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[04-Feb-2013 14:48:37] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 14:48:37] PHP   4. Auth->login() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 14:49:33] PHP Fatal error:  Class 'General' not found in /home/denic/web/w2f-frontend.lcl/application/controllers/auth.php on line 72
+[04-Feb-2013 14:49:33] PHP Stack trace:
+[04-Feb-2013 14:49:33] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[04-Feb-2013 14:49:33] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[04-Feb-2013 14:49:33] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[04-Feb-2013 14:49:33] PHP   4. Auth->login() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 09:12:32] PHP Fatal error:  Call to undefined method General::_render_page() in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 72
+[05-Feb-2013 09:12:32] PHP Stack trace:
+[05-Feb-2013 09:12:32] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[05-Feb-2013 09:12:32] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[05-Feb-2013 09:12:32] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 09:12:32] PHP   4. General->do_upload() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 09:28:33] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 74
+[05-Feb-2013 09:28:33] PHP Stack trace:
+[05-Feb-2013 09:28:33] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[05-Feb-2013 09:28:33] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[05-Feb-2013 09:32:33] PHP Fatal error:  Can't use method return value in write context in /home/denic/web/w2f-frontend.lcl/application/views/general.php on line 9
+[05-Feb-2013 09:32:33] PHP Stack trace:
+[05-Feb-2013 09:32:33] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[05-Feb-2013 09:32:33] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[05-Feb-2013 09:32:33] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 09:32:33] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 09:32:33] PHP   5. CI_Loader->view() /home/denic/web/w2f-frontend.lcl/application/controllers/general.php:42
+[05-Feb-2013 09:32:33] PHP   6. CI_Loader->_ci_load() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:419
+[05-Feb-2013 17:16:22] PHP Fatal error:  Call to undefined function get_filenames() in /home/denic/web/w2f-frontend.lcl/application/views/general.php on line 130
+[05-Feb-2013 17:16:22] PHP Stack trace:
+[05-Feb-2013 17:16:22] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[05-Feb-2013 17:16:22] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[05-Feb-2013 17:16:22] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:16:22] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:16:22] PHP   5. CI_Loader->view() /home/denic/web/w2f-frontend.lcl/application/controllers/general.php:42
+[05-Feb-2013 17:16:22] PHP   6. CI_Loader->_ci_load() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:419
+[05-Feb-2013 17:16:22] PHP   7. include() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:833
+[05-Feb-2013 17:16:52] PHP Fatal error:  Call to undefined function get_filenames() in /home/denic/web/w2f-frontend.lcl/application/views/general.php on line 130
+[05-Feb-2013 17:16:52] PHP Stack trace:
+[05-Feb-2013 17:16:52] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[05-Feb-2013 17:16:52] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[05-Feb-2013 17:16:52] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:16:52] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:16:52] PHP   5. CI_Loader->view() /home/denic/web/w2f-frontend.lcl/application/controllers/general.php:42
+[05-Feb-2013 17:16:52] PHP   6. CI_Loader->_ci_load() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:419
+[05-Feb-2013 17:16:52] PHP   7. include() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:833
+[05-Feb-2013 17:17:55] PHP Fatal error:  Call to undefined function get_filenames() in /home/denic/web/w2f-frontend.lcl/application/views/general.php on line 130
+[05-Feb-2013 17:17:55] PHP Stack trace:
+[05-Feb-2013 17:17:55] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[05-Feb-2013 17:17:55] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[05-Feb-2013 17:17:55] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:17:55] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:17:55] PHP   5. CI_Loader->view() /home/denic/web/w2f-frontend.lcl/application/controllers/general.php:42
+[05-Feb-2013 17:17:55] PHP   6. CI_Loader->_ci_load() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:419
+[05-Feb-2013 17:17:55] PHP   7. include() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:833
+[05-Feb-2013 17:18:36] PHP Fatal error:  Call to undefined function get_filenames() in /home/denic/web/w2f-frontend.lcl/application/views/general.php on line 130
+[05-Feb-2013 17:18:36] PHP Stack trace:
+[05-Feb-2013 17:18:36] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[05-Feb-2013 17:18:36] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[05-Feb-2013 17:18:36] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:18:36] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:18:36] PHP   5. CI_Loader->view() /home/denic/web/w2f-frontend.lcl/application/controllers/general.php:42
+[05-Feb-2013 17:18:36] PHP   6. CI_Loader->_ci_load() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:419
+[05-Feb-2013 17:18:36] PHP   7. include() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:833
+[05-Feb-2013 17:18:52] PHP Fatal error:  Call to undefined function get_filenames() in /home/denic/web/w2f-frontend.lcl/application/views/general.php on line 130
+[05-Feb-2013 17:18:52] PHP Stack trace:
+[05-Feb-2013 17:18:52] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[05-Feb-2013 17:18:52] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[05-Feb-2013 17:18:52] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:18:52] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:18:52] PHP   5. CI_Loader->view() /home/denic/web/w2f-frontend.lcl/application/controllers/general.php:42
+[05-Feb-2013 17:18:52] PHP   6. CI_Loader->_ci_load() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:419
+[05-Feb-2013 17:18:52] PHP   7. include() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:833
+[05-Feb-2013 17:19:35] PHP Fatal error:  Call to undefined function get_file_info() in /home/denic/web/w2f-frontend.lcl/application/views/general.php on line 130
+[05-Feb-2013 17:19:35] PHP Stack trace:
+[05-Feb-2013 17:19:35] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[05-Feb-2013 17:19:35] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[05-Feb-2013 17:19:35] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:19:35] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:19:35] PHP   5. CI_Loader->view() /home/denic/web/w2f-frontend.lcl/application/controllers/general.php:42
+[05-Feb-2013 17:19:35] PHP   6. CI_Loader->_ci_load() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:419
+[05-Feb-2013 17:19:35] PHP   7. include() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:833
+[05-Feb-2013 17:20:53] PHP Fatal error:  Call to undefined method CI_Loader::get_filenames() in /home/denic/web/w2f-frontend.lcl/application/views/general.php on line 130
+[05-Feb-2013 17:20:53] PHP Stack trace:
+[05-Feb-2013 17:20:53] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[05-Feb-2013 17:20:53] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[05-Feb-2013 17:20:53] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:20:53] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:20:53] PHP   5. CI_Loader->view() /home/denic/web/w2f-frontend.lcl/application/controllers/general.php:42
+[05-Feb-2013 17:20:53] PHP   6. CI_Loader->_ci_load() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:419
+[05-Feb-2013 17:20:53] PHP   7. include() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:833
+[05-Feb-2013 17:21:08] PHP Fatal error:  Call to a member function get_filenames() on a non-object in /home/denic/web/w2f-frontend.lcl/application/views/general.php on line 130
+[05-Feb-2013 17:21:08] PHP Stack trace:
+[05-Feb-2013 17:21:08] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[05-Feb-2013 17:21:08] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[05-Feb-2013 17:21:08] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:21:08] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:21:08] PHP   5. CI_Loader->view() /home/denic/web/w2f-frontend.lcl/application/controllers/general.php:42
+[05-Feb-2013 17:21:08] PHP   6. CI_Loader->_ci_load() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:419
+[05-Feb-2013 17:21:08] PHP   7. include() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:833
+[05-Feb-2013 17:23:34] PHP Fatal error:  Call to undefined function getFileName() in /home/denic/web/w2f-frontend.lcl/application/views/general.php on line 128
+[05-Feb-2013 17:23:34] PHP Stack trace:
+[05-Feb-2013 17:23:34] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[05-Feb-2013 17:23:34] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[05-Feb-2013 17:23:34] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:23:34] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:23:34] PHP   5. CI_Loader->view() /home/denic/web/w2f-frontend.lcl/application/controllers/general.php:42
+[05-Feb-2013 17:23:34] PHP   6. CI_Loader->_ci_load() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:419
+[05-Feb-2013 17:23:34] PHP   7. include() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:833
+[05-Feb-2013 17:24:30] PHP Fatal error:  Call to undefined method CI_Loader::getFileName() in /home/denic/web/w2f-frontend.lcl/application/views/general.php on line 128
+[05-Feb-2013 17:24:30] PHP Stack trace:
+[05-Feb-2013 17:24:30] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[05-Feb-2013 17:24:30] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[05-Feb-2013 17:24:30] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:24:30] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:24:30] PHP   5. CI_Loader->view() /home/denic/web/w2f-frontend.lcl/application/controllers/general.php:42
+[05-Feb-2013 17:24:30] PHP   6. CI_Loader->_ci_load() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:419
+[05-Feb-2013 17:24:30] PHP   7. include() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:833
+[05-Feb-2013 17:25:45] PHP Fatal error:  Call to undefined function get_filenames() in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 48
+[05-Feb-2013 17:25:45] PHP Stack trace:
+[05-Feb-2013 17:25:45] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[05-Feb-2013 17:25:45] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[05-Feb-2013 17:25:45] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:25:45] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:25:45] PHP   5. CI_Loader->view() /home/denic/web/w2f-frontend.lcl/application/controllers/general.php:42
+[05-Feb-2013 17:25:45] PHP   6. CI_Loader->_ci_load() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:419
+[05-Feb-2013 17:25:45] PHP   7. include() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:833
+[05-Feb-2013 17:25:45] PHP   8. General->getFileName() /home/denic/web/w2f-frontend.lcl/application/views/general.php:130
+[05-Feb-2013 17:28:02] PHP Fatal error:  Call to undefined function get_filenames() in /home/denic/web/w2f-frontend.lcl/application/controllers/general.php on line 48
+[05-Feb-2013 17:28:02] PHP Stack trace:
+[05-Feb-2013 17:28:02] PHP   1. {main}() /home/denic/web/w2f-frontend.lcl/index.php:0
+[05-Feb-2013 17:28:02] PHP   2. require_once() /home/denic/web/w2f-frontend.lcl/index.php:202
+[05-Feb-2013 17:28:02] PHP   3. call_user_func_array() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:28:02] PHP   4. General->index() /home/denic/web/w2f-frontend.lcl/system/core/CodeIgniter.php:359
+[05-Feb-2013 17:28:02] PHP   5. CI_Loader->view() /home/denic/web/w2f-frontend.lcl/application/controllers/general.php:42
+[05-Feb-2013 17:28:02] PHP   6. CI_Loader->_ci_load() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:419
+[05-Feb-2013 17:28:02] PHP   7. include() /home/denic/web/w2f-frontend.lcl/system/core/Loader.php:833
+[05-Feb-2013 17:28:02] PHP   8. General->getFileName() /home/denic/web/w2f-frontend.lcl/application/views/general.php:130
