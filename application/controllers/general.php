@@ -163,7 +163,7 @@ echo json_encode($sheetData);
         $config['smtp_timeout'] = 5;
 
         $config['charset'] = 'utf-8';
-        $config['crlf'] = "\r\n";
+        $config['crlf'] = "\n";
         $config['newline'] = "\r\n";
         $config['wordwrap'] = TRUE;
 
