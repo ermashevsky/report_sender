@@ -115,9 +115,9 @@
             $.post('<?= site_url('general/readXLS'); ?>', {'pathfile': path},
             function(data) {
                 console.info(data);
-                $('#excel_table').append('<thead><tr><th>№</th><th>A</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th><th>I</th><th>J</th></tr></thead>');
+                $('#excel_table').append('<thead><tr><th>№</th><th>A</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th><th>I</th><th>J</th><th>K</th></tr></thead>');
                 $.each(data, function(i, val) {
-                    $('#excel_table').append('<tr><td>' + i + '</td><td>' + data[i].A + '</td><td>' + data[i].C + '</td><td>' + data[i].D + '</td><td>' + data[i].E + '</td><td>' + data[i].F + '</td><td>' + data[i].G + '</td><td style="color:#' + data[i].K + '">' + data[i].H + '</td><td style="color:#' + data[i].B + '">' + data[i].I + '</td><td>' + data[i].J + '</td></tr>');
+                    $('#excel_table').append('<tr><td>' + i + '</td><td>' + data[i].A + '</td><td>' + data[i].C + '</td><td>' + data[i].D + '</td><td>' + data[i].E + '</td><td>' + data[i].F + '</td><td>' + data[i].G + '</td><td style="color:#' + data[i].L + '">' + data[i].H + '</td><td style="color:#' + data[i].B + '">' + data[i].I + '</td><td>' + data[i].J + '</td><td>' + data[i].K + '</td></tr>');
                 });
                 $('#table_block').css('display', 'block');
                 $('#excel_table_block').append("<button class='btn btn-info pull-right' style='display: none;' id='send_mail' onclick=send_email('" + path + "'); return false;><i class='icon-envelope'></i> Рассылка</button>");
@@ -142,12 +142,12 @@
             var counter = 0;
             $.post('<?= site_url('general/readXLS'); ?>', {'pathfile': path},
             function(dataset) {
-
+                console.info(dataset)
                 var countAllObject = getPropertyCount(dataset);
                 var n=0;
                 $.each(dataset, function(i, val) {
                     $.post('<?= site_url('general/send_email'); ?>', {'A': dataset[i].A, 'B': dataset[i].B, 'C': dataset[i].C, 'D': dataset[i].D, 'E': dataset[i].E, 'F': dataset[i].F,
-                        'G': dataset[i].G, 'H': dataset[i].H, 'I': dataset[i].I, 'J': dataset[i].J,'K':dataset[i].K},
+                        'G': dataset[i].G, 'H': dataset[i].H, 'I': dataset[i].I, 'J': dataset[i].J,'K':dataset[i].K,'L':dataset[i].L},
                     function(res) {
                         var current_perc = Math.round((((counter++) / countAllObject) * 100), 2);
 

@@ -98,13 +98,13 @@ class General extends CI_Controller {
 //				->setCellValue('C1', 'date')
 //				->setCellValue('D1', 'assortment');
 
-$sheetData = $objPHPExcel->getActiveSheet()->toArray(null, true, true, true, true, true, true, true, true,true,true); //!!!
+$sheetData = $objPHPExcel->getActiveSheet()->toArray(null, true, true, true, true, true, true, true, true,true,true,true); //!!!
 
                 foreach ($sheetData as $key=>$rows):
                     //echo $rows['A']. ' ' .$rows['C']. ' ' .$rows['D']. ' '.$rows['E']. ' ' .$rows['F']. ' ' .$rows['G']. ' ' .$rows['H']. ' ' .$rows['I']. ' ' .$rows['J'].'<br/>';
                     //echo $objPHPExcel->getActiveSheet(0)->getStyle("I".$rowcount++)->getFill()->getStartColor()->getRGB();
                     $sheetData[$key]["B"] = $objPHPExcel->getActiveSheet(0)->getStyle("I".$key)->getFill()->getStartColor()->getRGB(); //Тута берем цвет I а значение сохраняем в поле B таблицы
-                    $sheetData[$key]["K"] = $objPHPExcel->getActiveSheet(0)->getStyle("H".$key)->getFill()->getStartColor()->getRGB();
+                    $sheetData[$key]["L"] = $objPHPExcel->getActiveSheet(0)->getStyle("H".$key)->getFill()->getStartColor()->getRGB(); //Тута берем цвет H а значение сохраняем в поле L таблицы
                     //array_push($sheetData, "B".$key, $objPHPExcel->getActiveSheet(0)->getStyle("I".$key)->getFill()->getStartColor()->getRGB());
 		endforeach;
                 
@@ -139,9 +139,10 @@ echo json_encode($sheetData);
         $I = $this->input->post('I');
         $J = $this->input->post('J');
         $K = $this->input->post('K');
+        $L = $this->input->post('L');
 
         $this->load->model('general_model');
-        $data = $this->general_model->executeEmailSender($A, $B, $C, $D, $E, $F, $G, $H, $I, $J,$K);
+        $data = $this->general_model->executeEmailSender($A, $B, $C, $D, $E, $F, $G, $H, $I, $J, $K,$L);
 
         echo json_encode($data);
     }

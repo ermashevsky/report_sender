@@ -38,7 +38,7 @@ class General_model extends CI_Model {
         $this->load->library('email');
     }
 
-    function executeEmailSender($A, $B, $C, $D, $E, $F, $G, $H, $I, $J,$K) {
+    function executeEmailSender($A, $B, $C, $D, $E, $F, $G, $H, $I, $J,$K,$L) {
 
         $data = array(
             'A' => $A,
@@ -50,16 +50,17 @@ class General_model extends CI_Model {
             'G' => $G,
             'H' => $H,
             'I' => $I,
-            'J' => mb_strtolower($J, 'UTF-8'),
-            'K' => $K,
+            'J' => $J,
+            'L' => $L,
+            'K' => mb_strtolower($K, 'UTF-8'),
         );
 
         $this->db->insert('excel_dataset', $data);
 
 
-        if ($J != "#N/A") {
+        //if ($J != "#N/A") {
 
-            $username = mb_strtolower($J, 'UTF-8');
+            $username = mb_strtolower($K, 'UTF-8');
             if ($username != '') {
 
                 $this->db->from('managers')->where('username', $username);
@@ -72,7 +73,7 @@ class General_model extends CI_Model {
                     $this->db->insert('managers', $manager);
                 }
             }
-        }
+        //}
         return $this->db->affected_rows();
     }
 
@@ -107,18 +108,18 @@ class General_model extends CI_Model {
             $array = explode(",", $list);
         }
 
-        $this->db->select('A,B,C,D,E,F,G,H,I,J,K, username, email');
+        $this->db->select('A,B,C,D,E,F,G,H,I,J,K,L, username, email');
         $this->db->from('excel_dataset');
-        $this->db->join('managers', 'managers.username = excel_dataset.J', 'inner');
+        $this->db->join('managers', 'managers.username = excel_dataset.K', 'inner');
         $this->db->where_in('username', $array);
         //$this->db->where('username', $username);
-        $this->db->group_by('username, A');
+        //$this->db->group_by('username, A');
         $this->db->order_by("B", "desc");
         $getData = $this->db->get();
 
-        $this->db->select('A,B,C,D,E,F,G,H,I,J,K');
+        $this->db->select('A,B,C,D,E,F,G,H,I,J,K,L');
         $this->db->from('excel_dataset');
-        $this->db->where('excel_dataset.J', "");
+        $this->db->where('excel_dataset.K', "");
         $getData2 = $this->db->get();
 
         if (0 < $getData2->num_rows) {
@@ -138,6 +139,8 @@ class General_model extends CI_Model {
                 $objPHPExcel->getActiveSheet()->setCellValue('H' . $single_row, $values->H);
                 $objPHPExcel->getActiveSheet()->setCellValue('I' . $single_row, $values->I);
                 $objPHPExcel->getActiveSheet()->setCellValue('J' . $single_row, $values->J);
+                $objPHPExcel->getActiveSheet()->setCellValue('K' . $single_row, $values->K);
+//                $objPHPExcel->getActiveSheet()->setCellValue('L' . $single_row, $values->L);
             }
         }
 
@@ -158,6 +161,8 @@ class General_model extends CI_Model {
                 $objPHPExcel->getActiveSheet()->setCellValue('H' . $row, $values->H);
                 $objPHPExcel->getActiveSheet()->setCellValue('I' . $row, $values->I);
                 $objPHPExcel->getActiveSheet()->setCellValue('J' . $row, $values->J);
+                $objPHPExcel->getActiveSheet()->setCellValue('K' . $row, $values->K);
+//                $objPHPExcel->getActiveSheet()->setCellValue('L' . $row, $values->L);
 
                 if ($values->B == "FF0000") {
                     $styleArray = array(
@@ -173,16 +178,16 @@ class General_model extends CI_Model {
                     ));
                 }
                 
-                if ($values->K == "FF0000") {
+                if ($values->L == "FF0000") {
                     $styleArray2 = array(
                         'font' => array(
-                            'color' => array('rgb' => $values->K),
+                            'color' => array('rgb' => $values->L),
                             'bold' => true
                     ));
                 } else {
                     $styleArray2 = array(
                         'font' => array(
-                            'color' => array('rgb' => $values->K),
+                            'color' => array('rgb' => $values->L),
                             'bold' => false
                     ));
                 }
@@ -199,7 +204,7 @@ class General_model extends CI_Model {
         }
         
         $call = new General();
-        $call->sendMail($_SERVER['DOCUMENT_ROOT'] . "/" . $this->rus2translit($username) . '.xls', $email);
+        $call->sendMail($_SERVER['DOCUMENT_ROOT'] . "/" . $this->rus2translit($username) . '.xls', $email); 
         //$this->sendEMails($_SERVER['DOCUMENT_ROOT'] . "/" . $this->rus2translit($username) . '.xls', $email);
     }
 
